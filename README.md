@@ -23,11 +23,5 @@ python reporter.py
 - XSS: procura por `<script>` (inclui versão codificada em URL como `%3Cscript%3E`).
 - Força Bruta: conta requisições falhas a `/login.php` por IP e aciona alerta quando atinge o limiar (padrão: 3).
 
-## Publicar no GitHub
-Siga as instruções no terminal (veja abaixo) para inicializar um repositório git local, criar um repositório remoto no GitHub e enviar seus arquivos.
 
-## Observações
-- O projeto foi projetado para análise local (sem tráfego de rede). Use apenas em arquivos de log de teste e com cuidado se aplicar em dados reais.
 
----
-Feito para portfólio de estágio em Cibersegurança — bom estudo!
